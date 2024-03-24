@@ -1,0 +1,87 @@
+// //Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@700&family=Raleway:wght@100..900&family=Roboto:wght@300;500&display=swap');
+
+
+body{
+      font-family: $font-main;
+      background-color: $text-color;
+      // color: $text-color;
+}
+
+.wrapper{
+      // overflow: hidden;
+}
+
+a{
+      color: $link-color;
+      transition: all 0.2s ease-in-out;
+
+      &:hover{
+            color: $link-hover;
+            text-decoration: underline;
+      }
+}
+
+
+
+// //--------------containers------------------
+
+[class*="__container"]{
+    max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+.container{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+}
+
+// .container-sm{
+//       max-width: 824px;
+//       margin: 0 auto;
+//       padding: 0 15px;
+//       overflow: hidden;
+// }
+
+
+
+// //--------titles------------
+
+// .title-2{
+//       color: $primary-color;
+//       font-family: $font-primary;
+//       font-size: 36px;
+//       font-weight: 700;
+//       line-height: normal;
+//       @include mediaMobile{
+//             font-size: 30px;
+//       }
+// }
+
+
+
+// //------------Forms----------------
+
+// input{
+//       background: $input-color;
+//       text-align: center;
+//       padding: 12px 0;
+//       color: $text-color;
+
+//       &:focus{
+//             background-color: rgba(255, 255, 255, 0.3);
+//       }
+
+//       &::placeholder{
+//             color: $text-input-color;
+//             font-family: $font-main;
+//             font-size: 14px;
+//             line-height: 27px;
+//       }
+// }
+
+
+// .none{
+//       display: none;
+// }

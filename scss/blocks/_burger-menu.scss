@@ -1,0 +1,84 @@
+
+.menu__icon {
+    z-index: 5;
+    position: relative;
+    width: 25px;
+    height: 23px;
+    cursor: pointer;
+    display: none;
+
+    @include mediaTabletSm{
+        display: block;
+    }
+}
+
+.menu__icon span {
+    position: absolute;
+    background-color: $link-color;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    transform: translate(0, -50%);
+    transition: all 0.3s ease 0s;
+}
+
+.menu__icon:before,
+.menu__icon:after {
+    content: '';
+    background-color: $link-color;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.menu__icon:before {
+    top: 0;
+}
+
+.menu__icon:after {
+    bottom: 0;
+}
+
+.menu__icon.active span {
+    transform: scale(0);
+}
+
+.menu__icon.active:before {
+    transform: rotate(45deg);
+    top: 10.5px;
+}
+
+.menu__icon.active:after {
+    transform: rotate(-45deg);
+    bottom: 10.5px;
+}
+
+
+.menu__body.active {
+    right: 0;
+}
+
+
+.menu__logo-tel{
+    display: none;
+
+    @include mediaTabletSm{
+        display: block;
+        flex: 1 1 auto;
+        position: relative;
+        z-index: 10;
+    }
+}
+
+.menu__tel{
+    display: none;
+
+    @include mediaTabletSm{
+        display: block;
+        position: relative;
+        z-index: 10;
+    }
+}
