@@ -27,11 +27,11 @@ import myImageSlider from "./modules/sliders.js";
 // Отримуємо ID товару з URL
 document.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
-  const productId = params.get("id");
+    const productId = params.get("id");
 
     if (productId) {
         // Завантажуємо дані товару
-        fetch("../json/item.json")
+        fetch("json/item.json")
             .then((response) => response.json())
             .then((data) => {
               const product = data.cards.find(item => item.id == productId);
@@ -78,7 +78,6 @@ document.addEventListener("DOMContentLoaded", () => {
                   productText.className = "product-details__text";
                   productText.textContent = product.info;
                   productTextBlock.appendChild(productText);
-                    // Додайте інші властивості товару тут, наприклад, опис
                 } else {
                     console.error("Product not found");
                 }
