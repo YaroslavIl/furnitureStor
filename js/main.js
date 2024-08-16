@@ -3,8 +3,6 @@
 
 let navIcon = document.querySelector(".menu__icon");
 let navBar = document.querySelector(".menu__body");
-let navLink = document.querySelectorAll('.nav-link');
-console.log(navIcon);
 
 function iconActive() {
   navIcon.classList.toggle("active");
@@ -12,6 +10,86 @@ function iconActive() {
 };
 
 navIcon.addEventListener("click", iconActive);
+
+
+
+// Генерація карточок товару
+import cards from "./modules/cards.js";
+cards()
+
+//Slider-swiper
+import myImageSlider from "./modules/sliders.js";
+
+
+
+
+// Функція для отримання даних про товар за його ID
+// Отримуємо ID товару з URL
+document.addEventListener("DOMContentLoaded", () => {
+    const params = new URLSearchParams(window.location.search);
+  const productId = params.get("id");
+
+    if (productId) {
+        // Завантажуємо дані товару
+        fetch("../json/item.json")
+            .then((response) => response.json())
+            .then((data) => {
+              const product = data.cards.find(item => item.id == productId);
+              const productBox = document.querySelector(".product-details__box");
+                if (product) {
+                  // Відображаємо дані на сторінці
+                  const imgBlock = document.createElement("div");
+                  imgBlock.className = "product-details__img-block";
+                  productBox.appendChild(imgBlock);
+
+                  const productImg = document.createElement("img");
+                  productImg.src = product.image1;
+                  productImg.alt = product.name;
+                  imgBlock.appendChild(productImg);
+
+                  const productMiniImg = document.createElement("div");
+                  productMiniImg.className = "product-details__mini-img";
+                  imgBlock.appendChild(productMiniImg);
+
+                  for (const key in product) {
+                    if (key.startsWith("image") && product[key]) {
+
+                      const imgInner = document.createElement("div");
+                      imgInner.className = "product-details__img";
+                      productMiniImg.appendChild(imgInner);
+
+                      const miniImg = document.createElement("img");
+                      miniImg.src = product[key];
+                      miniImg.alt = `${product.name} ${key}`;
+                      imgInner.appendChild(miniImg);
+                    };
+                  };
+
+                  const productTextBlock = document.createElement("div");
+                  productTextBlock.className = "product-details__text-block";
+                  productBox.appendChild(productTextBlock);
+
+                  const productTitle = document.createElement("h4");
+                  productTitle.className = "product-details__title";
+                  productTitle.textContent = product.name;
+                  productTextBlock.appendChild(productTitle);
+
+                  const productText = document.createElement("p");
+                  productText.className = "product-details__text";
+                  productText.textContent = product.info;
+                  productTextBlock.appendChild(productText);
+                    // Додайте інші властивості товару тут, наприклад, опис
+                } else {
+                    console.error("Product not found");
+                }
+            })
+            .catch((error) => console.error("Error fetching the data:", error));
+    } else {
+        console.error("No product ID found in URL");
+    }
+});
+
+
 
 // function clickLink() {
 //   if (navIcon.classList.contains('burger-menu__icon--active') && navBar.classList.contains('burger-menu__nav--active')) {
@@ -106,8 +184,8 @@ if (animItems.length > 0) {
 // import linkClick from "./modules/linkHover.js";
 // linkClick();
 
-//Slider-swiper
-import myImageSlider from "./modules/sliders.js";
+
+
 
 //Зміна фону картинками зі слайдеру
 // import changeFon from "./modules/changeFon.js";

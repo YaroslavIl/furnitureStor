@@ -1,0 +1,153 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "link": "hilton.html",
+            "name": "Hilton",
+            "image1": "../img/cards/Hilton/Hilton1.jpg",
+            "image2": "../img/cards/Hilton/Hilton2.jpg",
+            "image3": "../img/cards/Hilton/Hilton3.jpg",
+            "image4": "../img/cards/Hilton/Hilton4.jpg",
+            "image5": "../img/cards/Hilton/Hilton5.jpg",
+            "image6": "../img/cards/Hilton/Hilton6.jpg",
+            "image7": "../img/cards/Hilton/Hilton7.jpg",
+            "image8": "../img/cards/Hilton/Hilton8.jpg",
+            "info": "Зручний, стильний, надійний диван. \nПри необхідності швидко перетворюється на двоспальне ліжко зі спальним місцем 195х145 см. \nПідлокітники дивану з вбудованими нішами. Підлокітники можна використовувати як полиці або журнальний столик. \nДиван оснащений механізмом трансформації – 'єврокнижка'. \nДля економії корисного простору, містить короб для зберігання постільних речей."
+        },
+        {
+            "id": 2,
+            "link": "hilton2.html",
+            "name": "HiLton2",
+            "image1": "../img/cards/HiLton2/HiLton21.jpg",
+            "image2": "../img/cards/HiLton2/HiLton22.jpg",
+            "image3": "../img/cards/HiLton2/HiLton23.jpg",
+            "image4": "../img/cards/HiLton2/HiLton24.jpg",
+            "image5": "../img/cards/HiLton2/HiLton25.jpg",
+            "image6": "../img/cards/HiLton2/HiLton26.jpg",
+            "image7": "../img/cards/HiLton2/HiLton27.jpg",
+            "image8": "../img/cards/HiLton2/HiLton28.jpg",
+            "image9": "../img/cards/HiLton2/HiLton29.jpg",
+            "info": "Зручний, стильний, надійний диван. \nПри необхідності швидко перетворюється на двоспальне ліжко зі спальним місцем 195х145 см. \nПідлокітники дивану з вбудованими нішами. Підлокітники можна використовувати як полиці або журнальний столик. \nДиван оснащений механізмом трансформації – 'єврокнижка'. \nДля економії корисного простору, містить короб для зберігання постільних речей."
+        },
+        {
+            "id": 3,
+            "name": "Lira",
+            "link": "lira.html",
+            "image1": "../img/cards/Lira/Lira1.jpg",
+            "image2": "../img/cards/Lira/Lira2.jpg",
+            "image3": "../img/cards/Lira/Lira3.jpg",
+            "image4": "../img/cards/Lira/Lira4.jpg",
+            "image5": "../img/cards/Lira/Lira5.jpg",
+            "info": "Зручний, стильний, надійний диван. \nПри необхідності швидко перетворюється на двоспальне ліжко зі спальним місцем 195х145 см. \nПідлокітники дивану з вбудованими нішами. Підлокітники можна використовувати як полиці або журнальний столик. \nДиван оснащений механізмом трансформації – 'єврокнижка'. \nДля економії корисного простору, містить короб для зберігання постільних речей."
+        },
+        {
+            "id": 4,
+            "name": "Luxb",
+            "image1": "../img/cards/Luxb/Luxb1.jpg",
+            "image2": "../img/cards/Luxb/Luxb2.jpg",
+            "image3": "../img/cards/Luxb/Luxb3.jpg",
+            "image4": "../img/cards/Luxb/Luxb4.jpg",
+            "image5": "../img/cards/Luxb/Luxb5.jpg",
+            "image6": "../img/cards/Luxb/Luxb6.jpg",
+            "image7": "../img/cards/Luxb/Luxb7.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Luxg",
+            "image1": "../img/cards/Luxg/Luxg1.jpg",
+            "image2": "../img/cards/Luxg/Luxg2.jpg",
+            "image3": "../img/cards/Luxg/Luxg3.jpg",
+            "image4": "../img/cards/Luxg/Luxg4.jpg",
+            "image5": "../img/cards/Luxg/Luxg5.jpg",
+            "image6": "../img/cards/Luxg/Luxg6.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Lykas",
+            "image1": "../img/cards/Lykas/Lykas1.jpg",
+            "image2": "../img/cards/Lykas/Lykas2.jpg",
+            "image3": "../img/cards/Lykas/Lykas3.jpg",
+            "image4": "../img/cards/Lykas/Lykas4.jpg",
+            "image5": "../img/cards/Lykas/Lykas5.jpg",
+            "image6": "../img/cards/Lykas/Lykas6.jpg",
+            "image7": "../img/cards/Lykas/Lykas7.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Moris",
+            "image1": "../img/cards/Moris/Moris1.jpg",
+            "image2": "../img/cards/Moris/Moris2.jpg",
+            "image3": "../img/cards/Moris/Moris3.jpg",
+            "image4": "../img/cards/Moris/Moris4.jpg",
+            "image5": "../img/cards/Moris/Moris5.jpg"
+        },
+        {
+            "id": 8,
+            "name": "MoRis2",
+            "image1": "../img/cards/MoRis2/MoRis21.jpg",
+            "image2": "../img/cards/MoRis2/MoRis22.jpg",
+            "image3": "../img/cards/MoRis2/MoRis23.jpg",
+            "image4": "../img/cards/MoRis2/MoRis24.jpg",
+            "image5": "../img/cards/MoRis2/MoRis25.jpg",
+            "image6": "../img/cards/MoRis2/MoRis26.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Oxford",
+            "image1": "../img/cards/Oxford/Oxford1.jpg",
+            "image2": "../img/cards/Oxford/Oxford2.jpg",
+            "image3": "../img/cards/Oxford/Oxford3.jpg",
+            "image4": "../img/cards/Oxford/Oxford4.jpg",
+            "image5": "../img/cards/Oxford/Oxford5.jpg",
+            "image6": "../img/cards/Oxford/Oxford6.jpg",
+            "image7": "../img/cards/Oxford/Oxford7.jpg",
+            "image8": "../img/cards/Oxford/Oxford8.jpg",
+            "image9": "../img/cards/Oxford/Oxford9.jpg",
+            "image10": "../img/cards/Oxford/Oxford10.jpg",
+            "image11": "../img/cards/Oxford/Oxford11.jpg",
+            "image12": "../img/cards/Oxford/Oxford12.jpg",
+            "image13": "../img/cards/Oxford/Oxford13.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Planiym",
+            "image1": "../img/cards/Planiym/Planiym1.jpg",
+            "image2": "../img/cards/Planiym/Planiym2.jpg",
+            "image3": "../img/cards/Planiym/Planiym3.jpg",
+            "image4": "../img/cards/Planiym/Planiym4.jpg",
+            "image5": "../img/cards/Planiym/Planiym5.jpg",
+            "image6": "../img/cards/Planiym/Planiym6.jpg",
+            "image7": "../img/cards/Planiym/Planiym7.jpg",
+            "image8": "../img/cards/Planiym/Planiym8.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Renk",
+            "image1": "../img/cards/Renk/Renk1.jpg",
+            "image2": "../img/cards/Renk/Renk2.jpg",
+            "image3": "../img/cards/Renk/Renk3.jpg",
+            "image4": "../img/cards/Renk/Renk4.jpg",
+            "image5": "../img/cards/Renk/Renk5.jpg",
+            "image6": "../img/cards/Renk/Renk6.jpg",
+            "image7": "../img/cards/Renk/Renk7.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Ritm",
+            "image1": "../img/cards/Ritm/Ritm1.jpg",
+            "image2": "../img/cards/Ritm/Ritm2.jpg",
+            "image3": "../img/cards/Ritm/Ritm3.jpg",
+            "image4": "../img/cards/Ritm/Ritm4.jpg",
+            "image5": "../img/cards/Ritm/Ritm5.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Sarmat",
+            "image1": "../img/cards/Sarmat/Sarmat1.jpg",
+            "image2": "../img/cards/Sarmat/Sarmat2.jpg",
+            "image3": "../img/cards/Sarmat/Sarmat3.jpg",
+            "image4": "../img/cards/Sarmat/Sarmat4.jpg",
+            "image5": "../img/cards/Sarmat/Sarmat5.jpg"
+        }
+    ]
+}

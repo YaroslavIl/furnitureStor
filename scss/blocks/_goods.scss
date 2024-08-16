@@ -1,0 +1,70 @@
+.goods {
+    padding-top: 200px;
+
+    &__title {
+        color: $link-hover;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 150%;
+        text-transform: uppercase;
+        border-bottom: 2px solid $link-hover;
+        margin-bottom: 50px;
+    }
+
+    &__card-inner {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    // .goods__card
+
+    &__card {
+        cursor: pointer;
+        width: 500px;
+    }
+}
+
+.card {
+    &:hover{
+        scale: 1.1;
+        .card__subtitle{
+            color: $link-hover;
+        }
+    }
+     
+
+    // .card__img
+
+    &__img {
+        background-color: $card-fon-color;
+        
+        // max-width: 270px;
+        height: 278px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            border: 1px solid #000;
+        }
+
+        & img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    // .card__subtitle
+
+        &__subtitle {
+            text-align: center;
+            margin-top: 20px;
+            color: $link-color;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            text-transform: uppercase;
+        }
+}

@@ -4,12 +4,14 @@
 
 body{
       font-family: $font-main;
-      background-color: $text-color;
+      // background-color: $text-color;
       // color: $text-color;
 }
 
 .wrapper{
       // overflow: hidden;
+      // background-color: rgb(206, 149, 149);
+      padding-bottom: 500px;
 }
 
 a{
@@ -31,11 +33,11 @@ a{
         margin: 0 auto;
         padding: 0 15px;
 }
-.container{
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 15px;
-}
+// .container{
+//       max-width: 1200px;
+//       margin: 0 auto;
+//       padding: 0 15px;
+// }
 
 // .container-sm{
 //       max-width: 824px;
