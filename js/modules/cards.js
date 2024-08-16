@@ -1,7 +1,7 @@
 
 
 function cards() {
-    fetch("json/item.json")
+    fetch("/json/item.json")
       .then((response) => response.json())
       .then((data) => {
         const products = data.cards;
@@ -10,7 +10,6 @@ function cards() {
         products.forEach((product) => {
           const card = document.createElement("a");
           card.className = "goods__card card";
-          // card.href = product.link;
           card.href = `hilton.html?id=${product.id}`;
 
           const cardImg = document.createElement("div");
