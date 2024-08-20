@@ -401,6 +401,7 @@ a:hover {
 }
 .product-details__img {
   max-width: 100px;
+  max-height: 70px;
 }
 .product-details__title {
   color: #343434;
