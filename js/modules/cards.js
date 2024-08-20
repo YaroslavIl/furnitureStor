@@ -1,7 +1,7 @@
 
 
 function cards() {
-    fetch("/json/item.json")
+    fetch("json/item.json")
       .then((response) => response.json())
       .then((data) => {
         const products = data.cards;
